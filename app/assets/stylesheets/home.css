@@ -7,6 +7,9 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.pd-in{
+  padding:2% 4% 2% 4%;
+}
 @media (min-width: 992px) {
   .animate {
     animation-duration: 0.3s;
@@ -49,4 +52,26 @@
 .slideIn {
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
+}
+
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 2em;
+  padding:2% 0 2% 0;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
 }
