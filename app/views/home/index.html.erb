@@ -1,3 +1,52 @@
+
+<!-- slide content -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="contain-img">
+    <div class="carousel-caption d-none d-md-block">
+      <h2 class="display-4">Third Slide</h2>
+      <p class="lead">This is a description for the third slide.</p>
+    </div>
+  </div>
+  <div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('/images/carousel1.jpeg')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">First Slide</h2>
+        <p class="lead">This is a description for the first slide.</p>
+      </div>
+    </div>
+    <!-- Slide Two - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('/images/carousel2.jpeg')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">Second Slide</h2>
+        <p class="lead">This is a description for the second slide.</p>
+      </div>
+    </div>
+    <!-- Slide Three - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('/images/carousel3.jpeg')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">Third Slide</h2>
+        <p class="lead">This is a description for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+</div>
+
+
+
 <!-- Page Content -->
 <div class="pd-in">
 
@@ -11,13 +60,41 @@
   <div class="row">
   	<% for item in 0...4 %>
 	    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-	      <div class="card h-100">
-	        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <div class="card h-100">
+        <div class="title-card">Project One  amet, consectetur adipisicing</div>
+          <a href="#">
+            <img class="card-img-top" src="/images/pack1.jpg" alt="">
+          </a>
 	        <div class="card-body">
-	          <h4 class="card-title">
-	            <a href="#">Project One</a>
-	          </h4>
-	          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <h6 class="card-title">
+            <img class="card-user-top" src="/images/pack1.jpg" alt="user">
+              <p class="contain-xml">
+                Nom
+              </p>
+              <p class="contain-xml-1">
+                University 
+              </p>
+            </h6>
+            <h6 class ="catg-item"> Categorie du projet ODD</h6>
+            <div class="details-item text-center">
+              500 <br> <span class="total-item"> sur 1800 </span>
+            </div>
+            <div class="details-item-2 text-center">
+              150 <br> <span class="total-item"> valifunders</span>
+            </div>
+            <div class="progress stab">
+              <div class="progress-bar bg-green" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+            <div class="details-item text-center">
+              80%
+            </div>
+            <div class="details-item-3 text-center">
+              J-25
+            </div>
+            <p class="card-text card-heigth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <a class ="btn btn-primary specify-button" href="#">
+              details
+            </a>
 	        </div>
 	      </div>
 	    </div>
@@ -34,16 +111,21 @@
 	<div class="row">
 		<% for item in 0...4 %>
 	            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-	                <div class="card card-inverse card-primary ">
-	                    <img class="card-img-top" src="https://picsum.photos/200/150/?random">
+                  <div class="card card-inverse card-primary ">
+                    <button class="btn btn-primary disable" style="position:absolute;right: 1%;top: 1%;"> Catégorie</button>
+	                    <img class="card-img-top" src="/images/pack2.jpg">
 	                    <blockquote class="card-blockquote p-3">
-	                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-	                        <footer>
-	                            <small>
-	                          Someone famous in <cite title="Source Title">Source Title</cite>
-	                        </small>
-	                        </footer>
-	                    </blockquote>
+                          <p>Lorem ipsum dolor sit amet, consectetur</p>
+                          <small>
+                            Date 
+                          </small>
+                          <small style="position:absolute;right: 10%;">
+                            Lieu
+                          </small>
+                      </blockquote>
+                      <footer>
+                        <a class="btn btn-primary nav-link" href="#">Detais</a>
+                      </footer>
 	                </div>
 	            </div>
 		<% end %>
@@ -168,4 +250,6 @@
   <!-- Grid row -->
 
 </section>
-<!-- Section: Team v.1 -->
+
+
+</div>
