@@ -27,6 +27,10 @@ gem 'image_processing', '~> 1.2'
 
 gem "devise"
 
+ gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+
+ gem 'font_awesome5_rails'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
