@@ -11,6 +11,8 @@ require ('packs/jquery-3.5.1.slim.min')
 require ('packs/popper.min')
 require ('packs/bootstrap')
 require ('packs/bootstrap.min')
+require ('packs/fontawesome')
+require ('packs/fontawesome.min')
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

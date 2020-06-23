@@ -125,6 +125,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size:14px;
 }
 .contain-xml-1{
   margin-left: 18%;
@@ -134,9 +135,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size:14px;
 }
 .catg-item{
-  height: 100%;
   text-align: center;
 }
 .details-item{
