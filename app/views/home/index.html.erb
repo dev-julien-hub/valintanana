@@ -58,36 +58,8 @@
 	</h3>
 	<div class="html-object">
 	  <div class="flex">
-	  	<% for item in 0...20 %>
-		    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-	        	<div class="card h-100">
-		        	<div class="title-card">Project One  amet, consectetur adipisicing</div>
-		          <a href="#">
-		            <img class="card-img-top" src="/images/pack1.jpg" alt="">
-		          </a>
-			        <div class="card-body">
-			            <h6 class="card-title">
-				            <img class="card-user-top" src="/images/pack1.jpg" alt="user">
-				              <p class="contain-xml">
-				                Nom du createur
-				              </p>
-				              <p class="contain-xml-1">
-				                University 
-				              </p>
-			            </h6>
-		            	<h6 class ="catg-item"> Categorie du projet ODD</h6>
-		            	<div class="details-item text-center">500 <br> <span class="total-item"> sur 1800 </span></div>
-		            	<div class="details-item-2 text-center">150 <br> <span class="total-item"> valifunders</span></div>
-			            <div class="progress stab">
-			              <div class="progress-bar bg-green" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-			            </div>
-		            	<div class="details-item text-center">80%</div>
-		            	<div class="details-item-3 text-center">J-25</div> 
-		            	<p class="card-text card-heigth">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-		            	<%= link_to "Details", projets_path(item), :class => "btn btn-primary specify-button" %>
-			        </div>
-			   </div>
-		    </div>
+	  	<% for @item in 0...20 %>
+	  		<%=render 'layouts/projects' %>
 	  	<% end %>
 	  </div>
 	</div>

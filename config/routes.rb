@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+  get "/projets/index"
   resource :projets
   devise_for :users
 	root to: "home#index"

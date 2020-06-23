@@ -247,3 +247,10 @@
 @media only screen and (max-width: 990px){
     .progress1{ margin-bottom: 20px; }
 }
+@media only screen and (max-width: 990px){
+    .content_new_object {height: 10em;transform: translate(6rem,0rem)}
+    .position_rigth_icons {right: -20%;transform: translatey(0rem);}
+    .details_index_show_type {height: 15em;}
+    .content_video_form {flex-direction: column;height: 43em;}
+    .video_integrate{width: 100%;}
+}

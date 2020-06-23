@@ -1,2 +1,7 @@
-<h1>Projets#index</h1>
-<p>Find me in app/views/projets/index.html.erb</p>
+<div class="pd-in">
+	<div class="row">
+	  	<% for @item in 0...20 %>
+	  		<%=render 'layouts/projects' %>
+	 	<% end %>
+	</div>
+</div>
