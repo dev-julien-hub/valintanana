@@ -41,8 +41,11 @@ ActiveRecord::Schema.define(version: 2020_06_23_060648) do
     t.string "last_name", null: false
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
-    t.string "sexe", null: false
-    t.integer "phone", null: false
+    t.string "sexe", default: ""
+    t.string "pays", default: ""
+    t.string "region"
+    t.string "birthday", default: "none"
+    t.integer "phone"
     t.integer "jeutons", default: 0
     t.boolean "IsAdmin", default: false
     t.string "reset_password_token"

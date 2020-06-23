@@ -1,5 +1,11 @@
 class HomeController < ApplicationController
+
+  include HomeHelper
+
   def index
+
+    @projets = self.JsonProjectsGet()
+
   end
 
   def edit
