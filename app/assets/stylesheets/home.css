@@ -165,3 +165,16 @@
 .card-body{
   padding: 0.3rem !important;
 }
+.flex{
+  display:flex;
+}
+.html-object{
+  width: 100%;
+  overflow: hidden;
+  height: 38em;
+}
+.html-plans{
+  width: 100%;
+  overflow: hidden;
+  height: 29em;
+}
