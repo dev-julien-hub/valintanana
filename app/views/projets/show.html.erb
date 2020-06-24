@@ -1,7 +1,7 @@
  <div class="pad1">
     <div class="details_index_show_type"></div>
     <div class="content_title_project text-center">
-    	<h1 class="title_show_index">PROJECT TITLE</h1>
+    	<h1 class="title_show_index"> <%= @details['titre'] %>  </h1>
 		<div class="position_rigth_icons">
 		   	<div class="row">
 		        <div class="col-sm-3">
@@ -24,7 +24,7 @@
     </div>
     <div class="content_new_object">
     	<div class="content_description_project">
-    		<p>Description du projet</p>
+    		<p><%= @details['description'] %></p>
     	</div>
     </div>
 </div> 
@@ -44,12 +44,12 @@
 			                <span class="progress1-right">
 			                    <span class="progress1-bar"></span>
 			                </span>
-			                <div class="progress1-value">90%</div>
+			                <div class="progress1-value"><%= @details['pourcentage'] %>%</div>
 			            </div>
 			        </div>
 			        <div class="col-sm-6 studio_object">
 			        	<p>Nombre collétés</p>
-			        	<p>Sur nombre objectif</p>
+			        	<p>Sur <%= @details['jeutons'] %></p>
 			        </div>
 			    </div>
 			</div>
@@ -75,7 +75,7 @@
 			    <div class="">
 			      <div class="card-body">
 			        <h5 class="card-title text-center">Card title</h5>
-			        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			        <p class="card-text">This lead-in to additional content. This content is a little bit longer.</p>
 			        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 			      </div>
 			    </div>

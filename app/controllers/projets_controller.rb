@@ -1,6 +1,8 @@
 class ProjetsController < ApplicationController
   include ProjetsHelper
+
   def index
+    @projets = self._GetAllProjets()
   end
 
   def new

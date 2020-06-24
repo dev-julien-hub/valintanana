@@ -2,10 +2,10 @@ module ProjetsHelper
 
 	def  _GetIdFromProjets(id)
 		@one_projets = Projet.find(id)
-		@user = User.find(@one_projets.id)
+		@user = User.find(@one_projets.user_id)
 		@projets = {
-			"user" => @user.name,
-			"University" => @user.last_name,
+			"name" => @user.name,
+			"prenom" => @user.last_name,
 			"sexe" => @user.sexe,
 			"pays" => @user.pays,
 			"titre" => @one_projets.titre_du_projets,
@@ -20,5 +20,9 @@ module ProjetsHelper
 			"like" => @one_projets.nombre_de_like
 		}
 		return @projets
+	end
+
+	def _GetAllProjets()
+		return Projet.all
 	end
 end
