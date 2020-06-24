@@ -12,8 +12,6 @@ class ProjetsController < ApplicationController
   def show
     @details = self._GetIdFromProjets(params[:id])
 
-    print @details
-
   end
 
   def edit
