@@ -57,41 +57,40 @@
 	  </span>
 	</h3>
 	<div class="html-object">
-	  <div class="flex">
+	  <div class="flex n_obj">
       <% for @i in 1..20 %>
         <%=render 'layouts/projects' %>
       <%end%>
 	  </div>
+	</div>
+  <h3 class="ml10">
+    <span class="text-wrapper">
+      <span class="letters">Domino Dreams</span>
+    </span>
+  </h3>
+  <div class="html-plans">
+    <div class="flex n_obj">
+      <% for item in 0...25 %>
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                    <div class="card card-inverse card-primary ">
+                      <button class="btn btn-primary disable" style="position:absolute;right: 1%;top: 1%;"> Catégorie</button>
+                        <img class="card-img-top" src="/images/pack2.jpg">
+                        <blockquote class="card-blockquote p-3">
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                            <small>
+                              Date 
+                            </small>
+                            <small style="position:absolute;right: 10%;">
+                              Lieu
+                            </small>
+                        </blockquote>
+                        <footer>
+                          <a class="btn btn-primary nav-link" href="#">Detais</a>
+                        </footer>
+                    </div>
+                </div>
+      <% end %>
     </div>
-	</div>
-<h3 class="ml10">
-  <span class="text-wrapper">
-    <span class="letters">Domino Dreams</span>
-  </span>
-</h3>
-<div class="html-plans">
-	<div class="flex">
-		<% for item in 0...4 %>
-	            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
-                  <div class="card card-inverse card-primary ">
-                    <button class="btn btn-primary disable" style="position:absolute;right: 1%;top: 1%;"> Catégorie</button>
-	                    <img class="card-img-top" src="/images/pack2.jpg">
-	                    <blockquote class="card-blockquote p-3">
-                          <p>Lorem ipsum dolor sit amet, consectetur</p>
-                          <small>
-                            Date 
-                          </small>
-                          <small style="position:absolute;right: 10%;">
-                            Lieu
-                          </small>
-                      </blockquote>
-                      <footer>
-                        <a class="btn btn-primary nav-link" href="#">Detais</a>
-                      </footer>
-	                </div>
-	            </div>
-		<% end %>
-	</div>
 </div>
 
 

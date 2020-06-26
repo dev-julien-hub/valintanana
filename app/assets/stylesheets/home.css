@@ -168,13 +168,18 @@
 .flex{
   display:flex;
 }
+.n_obj{
+  display: flex;
+  width: 1200px;
+  overflow: scroll;
+}
 .html-object{
-  width: 100%;
+  width: 1200px;
   overflow: hidden;
   height: 38em;
 }
 .html-plans{
-  width: 100%;
+  width: 1200px;
   overflow: hidden;
   height: 29em;
 }
