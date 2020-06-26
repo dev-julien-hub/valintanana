@@ -5,21 +5,21 @@
 </div>
 <div class="pad-in">
     <div class="row justify-content-center" style="margin-top: 5%;margin-bottom: 5%;">
-        <div class="col-md-8">
+        <div class="col-md-8">  
             <div class="register-form-container">
                 <div class="card-body new_user">
-                    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+                    <form>
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">Nom</label>
                             <div class="col-md-6">
-                                <%= f.text_field :name, class:"fields_label" %>
+                                <input type="text" name="Nom" value="" class="fields_label">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="firstname" class="col-md-4 col-form-label text-md-right">Prenom</label>
                             <div class="col-md-6">
-                                <%= f.text_field :last_name, class:"fields_label" %>
+                                <input class="fields_label" type="text" name="prenom" value="">
                             </div>
                         </div>
 
@@ -27,58 +27,74 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">Email</label>
 
                             <div class="col-md-6">
-                                <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"fields_label" %>
+                                <input type="email" class="fields_label"  name="" value="">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">Mot de passe</label>
                             <div class="col-md-6">
-                                <%= f.password_field :password, autocomplete: "new-password", class:"fields_label" %>
+                                <input type="password" class="fields_label" name="" value="">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-right">Confirmation</label>
                             <div class="col-md-6">
-                                <%= f.password_field :password_confirmation, autocomplete: "new-password",class:"fields_label" %>
+                                <input type="password" class="fields_label" name="" value="">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-right">Pays</label>
                             <div class="col-md-6">
-                              <% @pays = [ 'select your region','Cell', 'Work', 'Office', 'Home', 'Other' ] %>
-                              <%= f.select :pays, options_for_select(@pays),{}, { class: "fields_label" } %>
+                                <select  class= "fields_label" >
+                                    <option value="">Madagascar</option>
+                                    <option value="">Franse</option>
+                                    <option value="">Italie</option>
+                                    <option value="">Etats-Unis</option>
+                                    <option value="">Allemagne</option>
+                                    <option value="">Pays-Bas</option>
+                                    <option value="">Angleterre</option>
+                                    <option value="">Comor</option>
+                                </select>
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-right">Region</label>
                             <div class="col-md-6">
-                              <% @pays = [ 'select your region','Cell', 'Work', 'Office', 'Home', 'Other' ] %>
-                              <%= f.select :region, options_for_select(@pays),{}, { class: "fields_label" } %>
+                                <select  class= "fields_label" >
+                                    <option value="">Antananarivo</option>
+                                    <option value="">Mahajanga</option>
+                                    <option value="">Sava</option>
+                                    <option value="">Diana</option>
+                                    <option value="">Sofia</option>
+                                    <option value="">Fianaratsoa</option>
+                                    <option value="">Toamasina</option>
+                                    <option value="">Androy</option>
+                                </select>
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-md-4 col-form-label text-md-right">Date de naissance</label>
                             <div class="col-md-6">
-                                <%= f.text_field :birthday, class:"fields_label" %>
+                                <input type="text" name="birthday" value="" class='fields_label'>
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-md-4 col-form-label text-md-right">Phone</label>
                             <div class="col-md-6">
-                                <%= f.text_field :phone, class:"fields_label" %>
+                                <input type="text" name="Phone number" value="" class="fields_label">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="password-confirm" class="col-md-4 col-form-label text-md-right"></label>
                             <div class="col-md-6">
                               <span class="input-nile">
-                                  <%= f.radio_button :sexe,"Homme",class: 'input__field input__field-nile radio'%>
+                                  <input type="radio" name="" value="Homme">
                                     <label class="radio-label">Homme</label>
                               </span>
                               <span class="input-nile">
-                                  <%= f.radio_button :sexe,"Femme",class: 'input__field input__field-nile radio'%>
+                                  <input type="radio" name="" value="Femme">
                                   <label class="radio-label">Femme </label>
                               </span>
                             </div>
@@ -87,14 +103,15 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <div class="actions">
-                                  <%= f.submit "Sign up", class:"btn submit-login" %>
+                                  <button type="submit" class="btn submit-login">Sign up</button>
                                 </div>
                             </div>
                         </div>
-                    <% end %>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 

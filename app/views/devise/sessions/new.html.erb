@@ -19,7 +19,7 @@
     <div class="login-content">
             <div class="col-25">
             <div class="container form-container">
-            <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+            <form>
                 <div class = "login-form">
                     <h3 class="login-form">Se connecter</h3>
                     <div class="bold bottom color-black">
@@ -31,21 +31,21 @@
                     <br>
                     <label for="email">E mail</label>
                     <div class="field">
-                        <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder:"email", class:"fields_label" %>
+                        <input type="email" autocompete='email' name="email" value="" placeholder="email" class="fields_label">                        
                     </div>
                     <label for="password">Mot de pass</label>
                     <div class="field">
-                        <%= f.password_field :password, autocomplete: "current-password", placeholder: "Mot de passe (min: 8 caractères)", class: "fields_label" %>
+                        <input type="password" autocompete='current-password' name="email" value="" placeholder="Mot de passe" class="fields_label">                        
                     </div>
                 </div>
                 <div >
                     <div>
                       <div class="actions">
-                        <%= f.submit "Log in", class: "btn submit-login" %>
+                        <button type="submit" class= "btn submit-login">Log in</button>
                       </div>
                     </div>
                 </div>
-            <% end -%>
+            </form>
            
                 <div class="at-share-btn-elements new_user">
                     <a role="button" tabindex="0" (click) = 'facebookLogin()' class="at-icon-wrapper at-share-btn at-svc-facebook" style="background-color: rgb(59, 89, 152); border-radius: 6px;">

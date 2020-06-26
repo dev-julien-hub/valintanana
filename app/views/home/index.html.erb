@@ -58,11 +58,9 @@
 	</h3>
 	<div class="html-object">
 	  <div class="flex">
-    <%if  !@projets.blank? %>
-	  	<% for @i in @projets %>
-	  		<%=render 'layouts/projects' %>
-	  	<% end %>
-    <% end %>
+      <% for @i in 1..20 %>
+        <%=render 'layouts/projects' %>
+      <%end%>
 	  </div>
 	</div>
 
