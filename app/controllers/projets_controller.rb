@@ -2,7 +2,6 @@ class ProjetsController < ApplicationController
   include ProjetsHelper
 
   def index
-    @projets = self._GetAllProjets()
   end
 
   def new
@@ -12,8 +11,6 @@ class ProjetsController < ApplicationController
   end
 
   def show
-    @details = self._GetIdFromProjets(params[:id])
-
   end
 
   def edit
