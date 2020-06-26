@@ -1,11 +1,11 @@
-        <div class = "contain-chearch">
-            <div class="outerContent flex-content1">
-                <div class="_col-flex2">
+        <div class = "container">
+            <div class="row">
+                <div class="col-md-3">
                     <div class="categorie-text text-el">
                         Categories
                     </div>
                     <div class="tous-option">
-                        <select name="categories" id="categorie" class="categories-class">
+                        <select name="categories" id="categorie" class="fields_label">
                             <option value="default"> Toutes</option>
 							for
                                 <option value="default"> Option </option>
@@ -13,12 +13,12 @@
                     </div>
                 </div>
 
-                <div class="_col-flex2">
+                <div class="col-md-3">
                     <div class="text-el">
                         ODD
                     </div>
                         <div class="tous-option">
-                            <select name="odd" id="odd" class="categories-class">
+                            <select name="odd" id="odd" class="fields_label">
                                 <option value="default"> Toutes</option>
                                 @foreach ($data['odd'] as $rec)
                                     <option value="default"> {{ $rec->odd }}</option>
@@ -26,27 +26,24 @@
                             </select>
                         </div>
                     </div>
-
-                <div class="_col-flex2">
+                <div class="col-md-3">
                     <div class="text-el">
                        Status du projet
                     </div>
                         <div class="tous-option">
-                            <select name="odd" id="odd" class="categories-class">
+                            <select name="odd" id="odd" class="fields_label">
                                 <option value="default"> Toutes</option>
                                 <option value="default">Projet en cours</option>
                                 <option value="default">Projet réussi </option>
                             </select>
                         </div>
                     </div>
-
-
-                <div class="_col-flex2">
+                <div class="col-md-3">
                     <div class="text-el">
                         Lieu d éxécution
                     </div>
                         <div class="tous-option">
-                            <select name="odd" id="odd" class="categories-class">
+                            <select name="odd" id="odd" class="fields_label">
                                 <option value="default"> Toutes</option>
                                 @foreach ($data['region'] as $rec)
                                     <option value="default"> {{ $rec->region }}</option>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="19.84375mm"
+   height="25.922047mm"
+   viewBox="0 0 19.84375 25.922047"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Icone L'idée.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="-4.6362645"
+     inkscape:cy="-27.557354"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="898"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-107.06001,-141.33641)">
+    <g
+       id="g156"
+       transform="translate(80.941609,111.67618)">
+      <g
+         style="fill:#b39361"
+         id="g98"
+         transform="matrix(0.86870157,0,0,0.82965758,-344.5748,-566.64952)">
+        <path
+           id="path82"
+           d="m 438,723.913 c -3.604,0 -6.537,2.933 -6.537,6.538 0,2.005 0.914,3.863 2.512,5.121 0.029,0.043 0.066,0.081 0.111,0.111 0.01,0.006 0.857,0.576 0.857,1.669 0,0.017 0.018,0.027 0.018,0.045 0.002,0.015 -0.012,0.027 -0.008,0.042 l 1.072,4.9 c 0.041,0.188 0.207,0.321 0.4,0.321 h 3.15 c 0.191,0 0.357,-0.134 0.4,-0.321 l 1.074,-4.9 c 0.004,-0.015 -0.012,-0.027 -0.01,-0.042 0.002,-0.018 0.02,-0.028 0.02,-0.045 0,-1.078 0.82,-1.647 0.854,-1.669 0.037,-0.025 0.064,-0.057 0.09,-0.092 1.611,-1.258 2.533,-3.126 2.533,-5.141 10e-4,-3.604 -2.931,-6.537 -6.536,-6.537 z m 1.246,17.929 h -2.49 l -0.088,-0.403 h 2.666 z m 0.268,-1.224 h -3.025 l -0.09,-0.406 h 3.205 z m 0.269,-1.226 h -3.564 l -0.355,-1.63 h 4.279 z m 1.647,-4.391 c -0.035,0.025 -0.064,0.054 -0.088,0.089 -0.273,0.221 -0.926,0.84 -1.072,1.853 h -1.859 v -5.717 c 0,-0.449 0.367,-0.816 0.816,-0.816 0.225,0 0.41,-0.184 0.41,-0.41 0,-0.226 -0.186,-0.41 -0.41,-0.41 -0.496,0 -0.926,0.234 -1.227,0.583 -0.029,-0.034 -0.039,-0.075 -0.072,-0.106 -0.307,-0.308 -0.715,-0.477 -1.146,-0.477 -0.002,0 -0.004,0 -0.006,0 -0.225,0 -0.408,0.184 -0.408,0.412 0,0.226 0.184,0.408 0.41,0.408 0,0 0,0 0.002,0 0,0 0,0 0.002,0 0.213,0 0.416,0.083 0.57,0.237 0.154,0.152 0.24,0.359 0.24,0.579 v 5.717 h -1.857 c -0.145,-1.008 -0.793,-1.626 -1.07,-1.851 -0.025,-0.034 -0.055,-0.064 -0.09,-0.09 -1.457,-1.102 -2.291,-2.76 -2.291,-4.551 0,-3.153 2.564,-5.718 5.717,-5.718 3.154,0 5.719,2.564 5.719,5.718 -0.001,1.79 -0.837,3.447 -2.29,4.55 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b39361" />
+        <path
+           id="path84"
+           d="m 438.145,722.315 c 0.225,0 0.41,-0.184 0.41,-0.409 v -2.754 c 0,-0.227 -0.186,-0.41 -0.41,-0.41 -0.227,0 -0.408,0.184 -0.408,0.41 v 2.754 c -0.001,0.226 0.181,0.409 0.408,0.409 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b39361" />
+        <path
+           id="path86"
+           d="m 432.014,724.614 c 0.082,0.081 0.186,0.12 0.291,0.12 0.107,0 0.211,-0.039 0.289,-0.12 0.16,-0.16 0.16,-0.419 0,-0.58 l -1.945,-1.946 c -0.16,-0.161 -0.42,-0.161 -0.58,0 -0.158,0.159 -0.158,0.419 0,0.58 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b39361" />
+        <path
+           id="path88"
+           d="m 430.297,730.164 c 0,-0.226 -0.184,-0.41 -0.408,-0.41 h -2.758 c -0.227,0 -0.41,0.185 -0.41,0.41 0,0.227 0.184,0.41 0.41,0.41 h 2.758 c 0.224,0 0.408,-0.183 0.408,-0.41 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b39361" />
+        <path
+           id="path90"
+           d="m 432.02,735.712 -1.951,1.948 c -0.158,0.16 -0.158,0.419 0,0.579 0.082,0.081 0.186,0.121 0.291,0.121 0.102,0 0.209,-0.04 0.289,-0.121 l 1.949,-1.947 c 0.16,-0.161 0.16,-0.42 0,-0.58 -0.159,-0.158 -0.418,-0.161 -0.578,0 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b39361" />
+        <path
+           id="path92"
+           d="m 444.271,736.063 c -0.16,-0.156 -0.418,-0.16 -0.58,0 -0.162,0.161 -0.162,0.42 0,0.58 l 1.945,1.951 c 0.08,0.08 0.186,0.12 0.291,0.12 0.104,0 0.209,-0.04 0.289,-0.12 0.16,-0.159 0.16,-0.419 0,-0.579 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b39361" />
+        <path
+           id="path94"
+           d="m 449.154,729.754 -2.754,-0.003 c -0.225,0 -0.41,0.183 -0.41,0.41 0,0.226 0.184,0.408 0.41,0.408 l 2.754,0.005 c 0.227,0 0.41,-0.183 0.41,-0.41 0,-0.226 -0.181,-0.41 -0.41,-0.41 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b39361" />
+        <path
+           id="path96"
+           d="m 443.98,724.733 c 0.104,0 0.209,-0.04 0.291,-0.121 l 1.949,-1.945 c 0.16,-0.161 0.16,-0.421 0,-0.58 -0.158,-0.16 -0.418,-0.162 -0.58,0 l -1.949,1.946 c -0.162,0.161 -0.162,0.419 0,0.579 0.079,0.081 0.184,0.121 0.289,0.121 z"
+           inkscape:connector-curvature="0"
+           style="fill:#b39361" />
+      </g>
+      <text
+         transform="scale(1.0688508,0.93558427)"
+         id="text823-8-9-6-2"
+         y="59.358517"
+         x="27.576456"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;fill:#b39361;fill-opacity:1;stroke:none;stroke-width:0.24122888"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#b39361;stroke-width:0.24122888"
+           y="59.358517"
+           x="27.576456"
+           id="tspan821-9-0-0-1"
+           sodipodi:role="line">L'idée</tspan></text>
+    </g>
+  </g>
+</svg>

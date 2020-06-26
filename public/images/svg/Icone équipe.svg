@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20.508383mm"
+   height="27.38114mm"
+   viewBox="0 0 20.508383 27.38114"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Icone L'équipe.svg">
+  <defs
+     id="defs2">
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="64.755995"
+     inkscape:cy="64.54827"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="898"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showborder="false"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-88.699976,-164.24693)">
+    <g
+       id="g1309"
+       transform="translate(-60.254361,135.24822)">
+      <text
+         transform="scale(1.0688508,0.93558427)"
+         id="text823-8-9-6-2-2-7-5"
+         y="59.258434"
+         x="140.1339"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';letter-spacing:0px;word-spacing:0px;fill:#b39361;fill-opacity:1;stroke:none;stroke-width:0.24122888"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93888903px;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#b39361;stroke-width:0.24122888"
+           y="59.258434"
+           x="140.1339"
+           id="tspan821-9-0-0-1-6-2-2"
+           sodipodi:role="line">L'équipe</tspan></text>
+      <path
+         style="fill:none;stroke:#b39361;stroke-width:0.66145831;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 164.53057,34.721349 c 0.668,0.21506 1.00881,0.18458 1.7029,-0.15231 2.55057,-1.23797 1.8373,-5.2376 -0.93447,-5.2396 -1.02229,-8.4e-4 -1.6802,0.36284 -2.19686,1.21436 -0.93701,1.54432 -0.21786,3.64752 1.42843,4.17755 z m -12.35268,-0.14438 c 2.25864,1.12412 4.50498,-1.76919 3.13132,-4.03317 -0.51665,-0.85152 -1.17456,-1.21499 -2.19686,-1.21436 -2.77382,0.002 -3.48209,3.97958 -0.93446,5.24753 z m 13.39761,5.68485 c 0.57222,0.67618 2.59311,0.39651 3.3048,-0.45735 0.25693,-0.30822 0.28533,-0.56383 0.22303,-2.00284 -0.11278,-2.60395 -0.54915,-3.13129 -1.97165,-2.38272 -0.5942,0.31273 -1.01056,0.39623 -1.97477,0.39623 h -1.22182 l 3e-5,0.71422 c 2e-5,0.39281 -0.14049,1.10946 -0.31226,1.59255 -0.317,0.89157 -0.25698,1.1374 0.27917,1.1444 0.32816,0.004 1.34788,0.61077 1.67347,0.99551 z m -7.2369,0.20535 c 0.26012,0.0721 0.82021,0.0932 1.24466,0.047 2.64554,-0.28809 4.3068,-3.35197 3.18729,-5.87836 -0.72088,-1.62681 -1.91178,-2.4429 -3.56488,-2.4429 -1.6531,0 -2.84399,0.81609 -3.56487,2.4429 -1.02568,2.31466 0.293,5.16503 2.6978,5.83136 z m -8.04011,-0.0867 c 0.26012,0.1227 0.86987,0.22569 1.355,0.22969 0.70171,0.005 0.94345,-0.066 1.18237,-0.34828 0.32559,-0.38475 1.34531,-0.99051 1.67347,-0.99551 0.53615,-0.007 0.59616,-0.25284 0.27917,-1.14441 -0.17177,-0.48309 -0.31228,-1.19974 -0.31227,-1.59255 l 4e-5,-0.71422 h -1.22182 c -0.96421,0 -1.38057,-0.0835 -1.97477,-0.39623 -1.42251,-0.74857 -1.85887,-0.22123 -1.97165,2.38272 -0.0792,1.82872 0.0359,2.12851 0.99046,2.57879 z m 3.33962,8.588818 c 0.4757,0.18457 1.6905,0.22547 5.80404,0.19457 4.92818,-0.037 5.23149,-0.0573 5.75367,-0.38513 0.94896,-0.595744 1.26199,-1.280691 1.25899,-2.753528 -0.004,-1.64064 -0.35277,-3.39568 -0.85973,-4.32016 -0.76447,-1.39405 -2.11451,-2.067 -2.99995,-1.49538 -1.57021,1.01371 -2.19307,1.24193 -3.38946,1.24193 -1.19639,0 -1.81925,-0.22822 -3.38945,-1.24193 -0.40287,-0.26009 -0.56918,-0.27743 -1.12238,-0.11702 -0.35718,0.10357 -0.83609,0.34523 -1.06424,0.53701 -1.00347,0.84354 -1.66806,2.96561 -1.67306,5.34459 -0.004,1.737744 0.42891,2.508561 1.68157,2.995048 z"
+         id="path14"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
