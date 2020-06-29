@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get "/projets/index"
+  get "/projets/condition"
   resource :projets
   devise_for :users
 	root to: "home#index"

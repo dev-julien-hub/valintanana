@@ -1,0 +1,8 @@
+@media screen and (max-width:900px){
+    div{font-size: 100%!important;}
+    .nav1{position: relative!important;width: 100%!important;}
+    .sect3{margin: 0!important;border-radius: 0!important;}
+    .idcontainer{display: flex!important;flex-direction: column!important;width: 100%!important;}
+    .idcontainer>div{width: 93%!important;margin:0!important;}
+    .smallcontainer{width: 100%!important;margin: 0!important;}
+}
