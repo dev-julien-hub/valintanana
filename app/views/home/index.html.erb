@@ -2,44 +2,25 @@
 <!-- slide content -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#Indicators" data-slide-to="0" class="active"></li>
+    <li data-target="#Indicators" data-slide-to="1"></li>
+    <li data-target="#Indicators" data-slide-to="2"></li>
   </ol>
-  <div class="contain-img">
-    <div class="carousel-caption d-none d-md-block">
-      <h2 class="display-4">Third Slide</h2>
-      <p class="lead">This is a description for the third slide.</p>
-    </div>
-  </div>
   <div class="carousel-inner" role="listbox">
-    <!-- Slide One - Set the background image for this slide in the line below -->
-    <div class="carousel-item active" style="background-image: url('/images/carousel1.jpeg')">
-      <div class="carousel-caption d-none d-md-block">
-        <h2 class="display-4">First Slide</h2>
-        <p class="lead">This is a description for the first slide.</p>
+      <div class="carousel-caption d-none d-md-block d-title-i">
+        <h2 class="display-4" style="color:#bf8c37">SOUTENIR LES BONNES INITIATIVES</h2>
+        <h4 class="display-4">et être acteur du developpement</h4>
+        <p class="lead">Valintanana est une plateforme de crowdfunding pour les projets universitaires <br> axés sur les Objectifs du Développement Durable à Madagascar</p>
       </div>
-    </div>
-    <!-- Slide Two - Set the background image for this slide in the line below -->
-    <div class="carousel-item" style="background-image: url('/images/carousel2.jpeg')">
-      <div class="carousel-caption d-none d-md-block">
-        <h2 class="display-4">Second Slide</h2>
-        <p class="lead">This is a description for the second slide.</p>
-      </div>
-    </div>
-    <!-- Slide Three - Set the background image for this slide in the line below -->
-    <div class="carousel-item" style="background-image: url('/images/carousel3.jpeg')">
-      <div class="carousel-caption d-none d-md-block">
-        <h2 class="display-4">Third Slide</h2>
-        <p class="lead">This is a description for the third slide.</p>
-      </div>
-    </div>
+    <div class="carousel-item active" style="background-image: linear-gradient(10deg, rgba(0,0,0.5,0.8), rgba(0,0,0.5,0.2)),url('/images/carousel1.jpeg')"></div>
+    <div class="carousel-item" style="background-image: linear-gradient(10deg, rgba(0,0,0.5,0.8), rgba(0,0,0.5,0.2)),url('/images/carousel2.jpeg')"></div>
+    <div class="carousel-item" style="background-image: linear-gradient(10deg, rgba(0,0,0.5,0.8), rgba(0,0,0.5,0.2)),url('/images/carousel3.jpeg')"></div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#Indicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#Indicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -47,6 +28,8 @@
 
 
 
+  <a class="d-position-rigth" role="button"><span class="carousel-control-next-icon d-inco" id ="left-chevron" aria-hidden="false"></span><span class="sr-only">Next</span></a>
+  <a class="d-position-left" role="button"><span class="carousel-control-prev-icon d-inco" id ="rigth-chevron" aria-hidden="false"></span><span class="sr-only">Previous</span></a>
 <!-- Page Content -->
 <div class="pd-in">
 
@@ -57,7 +40,7 @@
 	  </span>
 	</h3>
 	<div class="html-object">
-	  <div class="flex n_obj">
+	  <div class="flex n_obj" id ="projects-container">
       <% for @i in 1..20 %>
         <%=render 'layouts/projects' %>
       <%end%>
@@ -214,3 +197,7 @@
 
 
 </div>
+
+<script type="text/javascript">
+  $('body').click(alert('ok'));
+</script>

@@ -13,6 +13,7 @@ require ('packs/bootstrap')
 require ('packs/bootstrap.min')
 require ('packs/fontawesome')
 require ('packs/fontawesome.min')
+require ('packs/valintanana')
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

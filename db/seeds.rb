@@ -16,18 +16,18 @@ for	i in 1...20
 		 nombre_de_days: 20 + i,
 	})
 end
-# for i in 1...20
-# 	User.create({
-# 		name: "test#{i}",
-# 		last_name: "test#{i}",
-# 		email: "test#{i}@test#{i}.com",
-# 		sexe: "Homme",
-# 		pays: "Madagascar",
-# 		region: "Antananarivo",
-# 		birthday: "#{i}/12/2020",
-# 		phone: "032 000 00 00",
-# 		jeutons: 20 + i,
-# 		password: "111111",
-# 		password_confirmation: "111111"
-# 	})
-# end
+for i in 1...20
+	User.create({
+		name: "test#{i}",
+		last_name: "test#{i}",
+		email: "test#{i}@test#{i}.com",
+		sexe: "Homme",
+		pays: "Madagascar",
+		region: "Antananarivo",
+		birthday: "#{i}/12/2020",
+		phone: "032 000 00 00",
+		jeutons: 20 + i,
+		password: "111111",
+		password_confirmation: "111111"
+	})
+end
