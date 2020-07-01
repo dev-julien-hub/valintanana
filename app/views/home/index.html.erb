@@ -40,12 +40,10 @@
 	  </span>
 	</h3>
 	<div class="html-object">
-    <div class="flex n_obj" id ="projects-container">
-    <% if !@projets.blank? %>
-      <% for @i in @projets %>
+	  <div class="flex n_obj" id ="projects-container">
+      <% for @i in 1..20 %>
         <%=render 'layouts/projects' %>
       <%end%>
-    <%end%>
 	  </div>
 	</div>
   <h3 class="ml10">

@@ -11,6 +11,7 @@ module HomeHelper
 				"sexe" => @user.sexe,
 				"pays" => @user.pays,
 				"titre" => @one_projets.titre_du_projets,
+				"id" => @one_projets.id,
 				"description" => @one_projets.description_du_projets,
 				"categorie" => @one_projets.categorie_du_projets,
 				"localisation" => @one_projets.localisation_du_projets,
