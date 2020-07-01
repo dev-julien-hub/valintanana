@@ -183,7 +183,6 @@
   height: 29em;
 }
 .d-position-rigth{
-    background-color: grey;
     width: 4rem;
     height: 36rem;
     float: right;
@@ -192,7 +191,6 @@
     border-radius: 5px;
 }
 .d-position-left{
-    background-color: grey;
     width: 4rem;
     height: 36rem;
     float: left;
@@ -200,8 +198,11 @@
     text-align: center;
     border-radius: 5px;
 }
-.d-inco{
-    transform: translate(0,17rem);
-    border-radius: 50%;
-    padding: 1.1rem;
+.chevron-home{
+  width: 4rem;
+  transform: translateY(17rem);
+  border-radius:50%;
+}
+.chevron-home:hover{
+  box-shadow: 2px 1px 2px 1px grey;
 }

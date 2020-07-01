@@ -28,8 +28,8 @@
 
 
 
-  <a class="d-position-rigth" role="button"><span class="carousel-control-next-icon d-inco" id ="left-chevron" aria-hidden="false"></span><span class="sr-only">Next</span></a>
-  <a class="d-position-left" role="button"><span class="carousel-control-prev-icon d-inco" id ="rigth-chevron" aria-hidden="false"></span><span class="sr-only">Previous</span></a>
+  <a class="d-position-rigth" role="button"><span class="d-inco"><img src="/images/svg/chevron-left.png" class="chevron-home"></span></a>
+  <a class="d-position-left" role="button"><span class="d-inco"><img src="/images/svg/chevron-right.png" class="chevron-home"></span></a>
 <!-- Page Content -->
 <div class="pd-in">
 
@@ -40,10 +40,12 @@
 	  </span>
 	</h3>
 	<div class="html-object">
-	  <div class="flex n_obj" id ="projects-container">
-      <% for @i in 1..20 %>
+    <div class="flex n_obj" id ="projects-container">
+    <% if !@projets.blank? %>
+      <% for @i in @projets %>
         <%=render 'layouts/projects' %>
       <%end%>
+    <%end%>
 	  </div>
 	</div>
   <h3 class="ml10">
