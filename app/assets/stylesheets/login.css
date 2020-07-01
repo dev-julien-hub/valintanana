@@ -303,10 +303,12 @@
     background-color: #80db22 !important;
 }
 .login-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 22em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 25em;
+  padding: 1% 8% 0 11px;
+
 }
 label{
   text-align: left !important;
