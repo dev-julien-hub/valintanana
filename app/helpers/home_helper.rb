@@ -3,6 +3,8 @@ module HomeHelper
 	def JsonProjectsGet()
 		@value =[]
 		@All_projets = Projet.all
+		print("*"*100)
+		# @u = Projet.find_by_sql("SELECT * FROM projets ORDER BY nombre_de_days asc")
 		for @one_projets in @All_projets
 			@user= User.find(@one_projets.user_id)
 			@value << {

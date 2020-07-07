@@ -13,7 +13,8 @@ for	i in 1...20
 		categorie_du_projets: "Categorie du projet ODD #{i}",
 		localisation_du_projets: "Mahajanga",
 		jeutons_du_projets: 120 * i,
-		 nombre_de_days: 20 + i,
+		nombre_de_days: 20 + i,
+		pourcentage: i + 20
 	})
 end
 for i in 1...20
