@@ -7,12 +7,14 @@
                     <div class="tous-option">
                         <select name="categories" id="categorie" class="fields_label">
                             <option value="default"> Toutes</option>
-							for
-                                <option value="default"> Option </option>
+                                   <ul class="list-group">
+                                        <% for item in 0..15 %>
+                                            <option class="list-group-item list-group-item-action">option <%= item %></option>
+                                        <% end %>
+                                    </ul>
                         </select>
                     </div>
                 </div>
-
                 <div class="col-md-3">
                     <div class="text-el">
                         ODD
@@ -20,9 +22,9 @@
                         <div class="tous-option">
                             <select name="odd" id="odd" class="fields_label">
                                 <option value="default"> Toutes</option>
-                                @foreach ($data['odd'] as $rec)
-                                    <option value="default"> {{ $rec->odd }}</option>
-                                @endforeach
+                                    <% for item in 0..15 %>
+                                        <option value="default"> option <%= item %></option>
+                                    <% end %>
                             </select>
                         </div>
                     </div>
@@ -45,9 +47,11 @@
                         <div class="tous-option">
                             <select name="odd" id="odd" class="fields_label">
                                 <option value="default"> Toutes</option>
-                                @foreach ($data['region'] as $rec)
-                                    <option value="default"> {{ $rec->region }}</option>
-                                @endforeach
+                                    <ul class="list-group">
+                                        <% for item in 0..15 %>
+                                            <option class="list-group-item list-group-item-action">option <%= item %></option>
+                                        <% end %>
+                                    </ul>
                             </select>
                         </div>
                     </div>
@@ -55,7 +59,7 @@
             </div>
 <div class="pd-in">
 	<div class="row">
-	  	<% for @i in 1..25 %>
+	  	<% for @i in @project %>
 	  		<%=render 'layouts/projects' %>
 	 	<% end %>
 	</div>

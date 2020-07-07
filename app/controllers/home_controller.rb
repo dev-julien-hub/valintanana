@@ -3,7 +3,7 @@ class HomeController < ApplicationController
   include HomeHelper
 
   def index
-
+    end_date()
     @projets = self.JsonProjectsGet()
 
   end
@@ -21,5 +21,9 @@ class HomeController < ApplicationController
   end
 
   def destroy
+  end
+
+  def end_date()
+    t = Time.now()
   end
 end

@@ -3,7 +3,16 @@ module HomeHelper
 	def JsonProjectsGet()
 		@value =[]
 		@All_projets = Projet.all
-		print("*"*100)
+		for i in @All_projets
+			t = Time.now()
+			#get project day create
+			y_end_project = (t.year - i.created_at.strftime("%Y").to_i) * 365
+			m_end_project = (t.month - i.created_at.strftime("%m").to_i) * 30
+			d_end_project = t.day - i.created_at.strftime("%d").to_i
+			d_project = i.nombre_de_days - (y_end_project + m_end_project + d_end_project)
+			i.update(fin_du_projets: d_project)
+			#{project_day_d}- #{project_day_m}-#{project_day_y}
+		end
 		# @u = Projet.find_by_sql("SELECT * FROM projets ORDER BY nombre_de_days asc")
 		for @one_projets in @All_projets
 			@user= User.find(@one_projets.user_id)
@@ -27,5 +36,4 @@ module HomeHelper
 		end
 		return @value
 	end
-
 end
